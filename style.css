@@ -1,0 +1,71 @@
+/* write your styles here */
+marquee{
+    background-color:#ed484c; 
+    color: white;
+    padding: 5px 0px;
+}
+body{
+    margin: 0;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+background-color: #4c4c4c;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    color: white;
+  
+}
+
+li{
+padding: 0px 10px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+header > img{
+    height: 52px
+}
+
+header > nav{
+  height: 10px;
+  padding-block-start:-3em
+}
+
+nav{display: flex;
+list-style-type: none;
+padding-inline-start: 0;
+}
+
+nav a{
+text-decoration: none;
+color: #c6c6c6;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: -webkit-xxx-large;
+    
+}
+.bac-img > img{
+    width: 100%;
+    background-color: #f18c97;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+}
+.content{
+    text-align: center;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
