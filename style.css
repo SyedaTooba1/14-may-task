@@ -1,192 +1,198 @@
 /* write your styles here */
 marquee{
-    background-color:#ed484c; 
+    background-color:#ed484c;
     color: white;
     padding: 5px 0px;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 body{
-    margin: 0%;
-}
-header{
-    display: flex;
-    justify-content:space-between;
-    background-color: #4c4c4c;
-}
-header > img{
-    padding-block-start: 7px;
-    padding-block-end: 7px;
-    width: auto;
-    height: 40px;
-    padding-inline-start: 20px;
-}
-nav ul{
-    display: flex;
-    list-style-type: none;
-    padding-inline-start: 0;
-}
-nav li{
-    padding: 0px 10px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-nav li a{
-    text-decoration: none;
-    color: #c6c6c6;
-}
-nav li a:hover{
-    color: white;
-}
-main{
-    display: flex;
-    flex-direction: column;
+    margin: 0;
 }
 
-.join-us{
-    background-color: #f18c97;
-    background-image: url(images/floral.png);
+header{
+display: flex;
+justify-content: space-between;
+background-color: #4c4c4c;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    color: white;
+  
+}
+
+li{
+padding: 0px 10px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+header > img{
+    height: 52px
+}
+
+header > nav{
+  height: 10px;
+  padding-block-start:-3em
+}
+
+nav{display: flex;
+list-style-type: none;
+padding-inline-start: 0;
+}
+
+nav a{
+text-decoration: none;
+color: #c6c6c6;
+
+}
+.about{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    color: black;
-    padding-bottom: 45px;
+    padding-block-start: 15px;
+    background-image: url(images/floral.png);
+    background-color: #f18c97;
 }
 h1{
+    margin-block-end: 20px;    
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: -webkit-xxx-large;
-    font-family: 'Anton', sans-serif;
-    margin-bottom: 20px;    
-}
-.same-parg{
     text-align: center;
+    
+}
+
+.s-para{
+    color: black;
     border-top: 1px solid;
     border-bottom: 1px solid;
-    padding: 10px 0px;
-    font-family: 'Oxygen', sans-serif;
-    font-weight: 600;
-}
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+ }
 
-.join-us button{
-    border: none;
-    font-family: 'Bree Serif', serif;
+
+.about button{
     background-color: black;
-    padding: 15px 60px;
-    font-size: larger;
     color: #f18c97;
-}
-.join-us button:hover{
-    cursor: pointer;
-    background-color: #e7e3de;
-    transition: 0.5s;
+    padding: 15px 57px;
+    font-size: larger;
+    border: none;
+    margin: 15px;
 }
 h2{
-    font-family: 'Caveat Brush', cursive;
-    font-size: xx-large; 
+    font-family: cursive;
+    color: black;
+   
 }
-h3{
-    font-family: 'Bree Serif', serif;
-}
-.service {
+#services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url(images/floral.png);
     background-color: #f0ece7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-.service div{
+#services div{
     display: flex;
-    justify-content: center;
 }
-.service figure{
+#services figure{
     text-align: center;
-
 }
-.service figure > i{
-    font-size: 90px;
+#services i{
+    font-size: 65px;
 }
-.service i:hover{
-    transition: 0.3s;
-    color: rgb(236, 72, 72);
+#services i:hover{
+    color:rgb(241, 50, 50);
+    transition: 0.5s;
 }
-.service figcaption p{
-    font-family: 'Cabin', sans-serif;
-    font-size: 14px;
-}
-.portfolio{
-    background-image: url(images/floral.png);
-    background-color: #ddceb4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 15px;
-}
-.portfolio img{
-    border-radius: 15px;
-    height: 155px;
-    width: 200px;
-}
-.portfolio-content div{
-    display: flex;
-    justify-content: center;
-}
-.portfolio figure{
-    position: relative;
-}
-.portfolio figure:hover figcaption{
-    display: block;
-    background-color: rgba(0, 0, 0, 0.85);
-    text-align: center;
-    border-radius: 15px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    padding: 27px 28px 29px 27px;
-}
-.portfolio figcaption button:hover{
-    color: #fcdea6;
-    background-color: #585858db;
-    border-color:#fcdea6;
-}
-.portfolio figcaption button{
-    font-size: 15px;
-    padding: 8px 9px;
-    border-radius: 30px;
-    background-color: rgba(175, 199, 198, 0);
-    border: white solid 1px;
-    margin-right: 10px;
-    color: white;
+h3{
+    font-size: 1.7em;
 }
 h4{
-    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
     color: white;
 }
-.portfolio figcaption{
-    text-align: center;
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/floral.png);
+    background-color: #ddceb4;
+    align-items: center;
+    
+}
+#portfolio figure{
+    position: relative;
+}
+#portfolio img{
+    border-radius: 15px;
+    height:  165px;
+    width: 215px;
+}
+.workfirst-row{
+    display: flex;
+    justify-content: center;
+}
+.worksecond-row{
+    display: flex;
+    justify-content: center;
+}
+#portfolio figcaption{
     display: none;
 }
-.contact-us{
+#portfolio figure:hover figcaption{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color:#0e0e0ede;
+    border-radius: 15px;    
+}
+
+#portfolio button{
+    border-radius: 100%;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 10px 12px;
+    color: black;
+    margin-inline-start: 3px;
+}
+#portfolio button:hover{
+    background-color: #0e0e0eeb;
+    border-color: white;
+    transition: 0.5s;
+}
+#portfolio button:hover i{
+    color: white;
+}
+#contact{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
-}
-.contact-us{
     background-image: url(images/floral.png);
     background-color: #afc7c6;
+    padding-block-end: 20px;
 }
-.contact-us button{
-    font-size: 23px;
-    padding: 10px 11px;
-    border-radius: 30px;
-    background-color: rgba(175, 199, 198, 0);
-    border: #5a6464 solid 1px;
-    margin-right: 10px;
+#contact button{
+    border-radius: 100%;
+    background-color: #afc7c6;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px 12px;
+    color: black;
+    margin-inline-start: 3px;
 }
-.contact-us button:hover{
-    color: #fcdea6;
+#contact button:hover{
     background-color: #222222;
-    transition: 1s;
+    color: #fcdea6;
+    transition: 0.5s;
 }
-footer{
+#footer{
     display: flex;
     justify-content: center;
     background-color: #222222;
@@ -194,29 +200,28 @@ footer{
     font-size: 17px;
     padding: 5px 0px;
 }
-footer p{
-    font-family: 'Hammersmith One', sans-serif;
+#footer p{
     margin: 15px 0px;
 }
-footer i{
+#footer i{
     font-size: 19px;
     padding: 0px 5px;
     transition: 0.5s;
 }
-footer:hover i{
+#footer:hover i{
     color: red;
 }
 @media screen and (min-width:426px) and (max-width: 768px){
-    .service div{
+    #services div{
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
-    .portfolio-content{
+    #portfolio-work{
         display: flex;
         justify-content: center;
     }
-    .portfolio-content div{
+    #portfolio-work div{
         display: block;
         
     }
@@ -235,20 +240,19 @@ footer:hover i{
     nav li {
         padding: 0px 5px;
     }
-    .service div{
+    #services div{
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
-    .portfolio-content{
+    #portfolio-work{
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
-    .portfolio-content div{
+    #portfolio-work div{
         display: block;
         
     }
 
 }
-
