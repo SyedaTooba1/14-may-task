@@ -36,7 +36,6 @@ header > img{
 
 header > nav{
   height: 10px;
-  padding-block-start:-3em
 }
 
 nav{display: flex;
