@@ -1,4 +1,7 @@
 /* write your styles here */
+html{
+    scroll-behavior: smooth;
+}
 marquee{
     background-color:#ed484c;
     color: white;
@@ -27,7 +30,8 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 header > img{
-    height: 52px
+    height: 46px;
+    padding: 5px 15px;
 }
 
 header > nav{
@@ -212,7 +216,7 @@ h4{
 #footer:hover i{
     color: red;
 }
-@media screen and (min-width:426px) and (max-width: 768px){
+@media screen and (min-width:591px) and (max-width: 768px){
     #services div{
         display: flex;
         justify-content: center;
@@ -227,7 +231,7 @@ h4{
         
     }
 }
-@media screen and (min-width:320px) and (max-width: 425px){
+@media screen and (min-width:320px) and (max-width: 590px){
     header > img {
         padding-block-start: 6px;
         padding-block-end: 4px;
