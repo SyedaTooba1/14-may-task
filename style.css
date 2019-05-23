@@ -69,9 +69,10 @@ h1{
     border-top: 1px solid;
     border-bottom: 1px solid;
     padding: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     text-align: center;
+    font-weight: bold;
  }
 
 
@@ -84,7 +85,7 @@ h1{
     margin: 15px;
 }
 h2{
-    font-family: cursive;
+    font-family: 'Sofia', cursive;
     color: black;
    
 }
@@ -108,8 +109,12 @@ h2{
     color:rgb(241, 50, 50);
     transition: 0.5s;
 }
+#services p{
+    font-family: 'Josefin Sans', sans-serif;
+}
 h3{
-    font-size: 1.7em;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
 }
 h4{
     font-size: 20px;
